@@ -38,9 +38,9 @@ python main_BSC_NRS_setting.py
 python main_BSC_reader_identifier.py
 ```
 
-#For English CELER dataset:
+#For English CELER dataset (for my Pielinen Server!):
 ```
-python main_celer.py --test_mode='text'
+python main_celer.py --test_mode='text' --gpu=0
 python main_celer.py --test_mode='subject'
 python main_celer_NRS_setting.py
 python main_celer_reader_identifier.py
